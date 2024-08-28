@@ -1,0 +1,46 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Variables CSS para colores y fuentes */
+:root {
+    --color-primary: #42a5f5;
+    --color-secondary: #ff9800;
+    --color-background: #f4f4f4;
+    --color-text: #333;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  /* Estilo global del cuerpo */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+  /* Estilos para el contenido principal */
+main {
+    padding: 80px 20px 20px;
+    margin-top: 60px;
+    background-color: white;
+}
+
+  /* Estilo del pie de página */
+footer {
+    background-color: var(--color-primary);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
